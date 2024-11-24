@@ -8,7 +8,7 @@ import numpy as np
 model = YOLO("best.onnx")  # Replace with the correct model path
 
 # Streamlit app title
-st.title("YOLOv8 Object Detection with Streamlit")
+st.title("SLD Device Detection Demo")
 
 # File uploader
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
